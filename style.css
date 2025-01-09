@@ -1,0 +1,63 @@
+body {
+  background: #feda91;
+}
+
+p {
+  color: black;
+  text-align:center;
+}
+
+h1 {
+  font-weight: bold;
+  color:orangered;
+  text-align:center;
+}
+
+h2 {
+  font-family: fantasy;
+  color: #6bab1c;
+  font-size:35px;
+  text-align:center;
+}
+
+h3 {
+  font-family:fantasy;
+  color:#c31818;
+  font-size:30px;
+  text-align:center;
+}
+
+img {
+  width: 120px;
+  height:150px;
+  margin: 25px;
+  border-style:solid;
+  border-color:#ab1717;
+  border-width:5px;
+}
+
+
+/*dividers*/
+.gallery {
+  display:flex;
+  flex-wrap:wrap; 
+  justify-content: center;
+  margin:20px;
+}
+
+.food {
+  width:325px;
+  border-style:solid;
+  text-align:center;
+  margin:10px;
+  align-items:center;    
+  border-width:2px;
+}
+
+.food img {
+  width: 80%;
+}
+ 
+.content {
+  padding:10px;
+}
